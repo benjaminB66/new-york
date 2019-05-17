@@ -1,0 +1,63 @@
+.eatIntro h1{
+   color: goldenrod;/*rgb(69, 106, 115);*/
+    padding-top: 40px ;
+     margin-bottom: 20px;
+}
+
+.eat .banner{
+    width: 100%;
+    height: 20px;
+    background-color: antiquewhite;
+    margin-bottom: 0;
+}
+
+
+.boxpicture{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.boxpicture img{
+    height: auto;
+    width: auto;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+
+.eat{
+    margin-top: 100px;
+}
+
+.eat img{
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.eatMain{
+    margin-right: 5px;
+}
+
+
+.eatAbout {
+    background-color: antiquewhite;
+}
+
+
+.eatAbout li{
+   margin: auto;
+ 
+}
+
+.conclusion{
+    margin-top: 90px;
+}
+
+
+
+h2{
+    padding: 40px;
+}  

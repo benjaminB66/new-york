@@ -1,0 +1,69 @@
+.wallpaperMetro{
+    margin-top: 100px;
+     display: block;
+    margin: auto;
+    margin-top: 100px;
+    height: auto;
+    width: 100%;
+}
+
+
+
+.block1{
+    background-color:  #95afbf;
+}
+
+
+.block2{
+  background-color: antiquewhite;
+}
+
+
+
+.spaceBottom{
+    background-color:  #95afbf;
+}
+
+.block1>p{
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.spaceTop>p {
+    margin-top: 0;
+    padding-top: 40px;
+}
+
+
+
+.metroCardimg, .localMetro{
+    float: right;
+    margin :30px;
+    max-width: 450px;
+    max-height: 350px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+
+
+
+
+@media screen and (max-width : 960px){
+    .wallpaperMetro{
+        margin-top: 0;
+    }
+}

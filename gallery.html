@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>New_york_guide</title>
+
+    <link rel="stylesheet" href="css/styles.css" >
+    <link rel="stylesheet" href="css/gallery.css" >
+
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet"> <!--  FONT SIZE -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+<!--          Menu bar   -->
+   <header class="header">
+      <nav class="navigation">
+        <ul>
+          <li><a class="active" href="NY.html">Accueil</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Infos pratiques</a>
+              <div class="dropdown-content">
+                  <a href="transportsHome.html"> Transports et déplacements</a>
+                  <a href="eat.html"> Se restaurer</a>
+                  <a href="sleep.html"> Ou dormir?</a>
+                  <a href="attractions.html"> Attractions</a>
+                  <a href="shooping.html"> Shopping</a>
+                  <a href="infos.html">Infos Pratiques</a>
+              </div>
+             </li>
+          <li><a href="gallery.html">Gallerie</a></li>
+                <img src="sticker2.png">
+        </ul>
+        </nav>
+        <div class="bannerHeader"></div>
+    </header>
+
+
+    
+    
+    
+
+<div class="carroussel">
+    
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/gallery/ny1.jpg" >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/gallery/ny2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/gallery/ny3.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/gallery/ny5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/gallery/ny5.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/gallery/ny6.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/ny1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Manhattan">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/ny2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Brooklyn Bridge">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/ny3.jpg" style="width:100%" onclick="currentSlide(3)" alt="Time Square">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/ny4.jpg" style="width:100%" onclick="currentSlide(4)" alt="Chrysler Building">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/ny5.jpg" style="width:100%" onclick="currentSlide(5)" alt="Brooklyn">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/gallery/ny6.jpg" style="width:100%" onclick="currentSlide(6)" alt="Central Park">
+    </div>
+  </div>
+    
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+
+                  <!--         FOOTER   ---------------->
+    
+<footer id="containerFooter">
+    <div class="footer">
+            
+            <div class="logoFooter">
+              <img src="sticker2.png">
+            </div>
+   
+            
+            
+             <div class="footer-social">
+            
+                  <a href="#" class="fa fa-facebook"></a>
+              
+                  <a href="#" class="fa fa-twitter"></a>
+                
+                  <a href="#" class="fa fa-linkedin"></a>
+                
+                  <a href="#" class="fa fa-instagram"></a>   
+          </div>
+            
+            
+        <div class="contact">
+            <h3>Contact</h3>
+          <ul>
+              <li>
+                 <i class="fa fa-envelope-o"></i><a href="mailto:benjamin.bronitzky@gmail.com"> Mail: Benjamin.bronitzky@gmail.com</a>
+                 
+              </li>
+              <li>
+                  <i class="fa fa-phone"></i> Téléphone : 06 00 00 00 00
+              </li>
+          </ul>
+        </div>
+            
+    </div>   
+    
+            
+            
+        
+         
+        
+       </footer>
+
+</body>
+</html>

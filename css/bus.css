@@ -1,0 +1,13 @@
+.wallpaperBus{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.bus h1, .bus h3{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+

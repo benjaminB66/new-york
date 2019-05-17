@@ -1,0 +1,23 @@
+#introShopping{
+    width: 80%;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.wallpaper{
+    margin: auto;
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+.shopping{
+    text-align: center;
+    margin: auto;
+}
+
+.imgShopping{
+   
+    max-width: 600px;
+    max-height: 390px;
+}

@@ -1,0 +1,53 @@
+.wallpaper{
+    max-height: auto;
+    max-width: 100%;
+    width: 1600px;
+}
+
+
+
+.sleepIntro{
+   /* margin: 50px;*/
+    margin-bottom: 60px;
+}
+
+
+.sleep1, .sleep3{
+      display: flex;
+    flex-direction: row;
+}
+
+.sleep2, .sleep4{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bed{
+    margin-bottom: 30px;
+    max-width: 100%;
+    max-height: auto;
+}
+
+
+.hostel, .guest{
+ background-color: goldenrod;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 5px 5px goldenrod;
+   /* border:4px solid #456a73;*/
+    width: 80%;
+}
+
+.hotel, .appart{
+    background-color: #95afbf;
+    margin-bottom: 50px;
+   box-shadow: 5px 5px 5px 5px #95afbf;
+ /* border:4px solid goldenrod;*/
+    width: 80%;
+}
+
+
+
+.hotel h2, .appart h2{
+    color: goldenrod;
+    text-shadow: black 1px 1px;
+}

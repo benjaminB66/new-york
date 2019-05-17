@@ -1,0 +1,23 @@
+.map{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.infoPratique{
+    text-align: center;
+    margin-top: 120px;
+}
+
+ul{
+    list-style: none;
+}
+    
+    
+ @media screen and (max-width: 960px)
+ {
+     .map iframe{
+         width: 90%;
+         height: 500px;
+     }
+}

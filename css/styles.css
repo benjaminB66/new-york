@@ -1,0 +1,321 @@
+body, html{
+    width: 100%;
+    /*font-family: 'Lora', serif;*/
+    font-family: 'Lato','Playfair Display','Roboto', 'Raleway', sans-serif;
+    margin: 0;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 30px;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+
+a{
+    text-decoration: none;
+    color: goldenrod
+}
+
+p{
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+      width: 900px;
+    margin-bottom: 30px;
+   /* font-weight: bold;*/
+}
+
+
+/*li{
+    max-width: 900px;
+}
+*/
+
+.article, .sleep, .eat{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+h1{
+    color: #c69f27;
+    margin: 80px;
+    font-size: 35px;
+    text-shadow: #125688 1px 2px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2, h3{
+    margin-top: 80px;
+    color:rgb(18, 86, 136);
+    text-decoration: underline;
+    text-decoration-color: goldenrod;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/******* bar menu     ************/
+.header {
+    width: 100%;
+    position: fixed;
+    top:0;
+}
+
+.navigation{
+    background-color: rgba(18, 86, 136, 0.8);
+}
+
+.header ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  overflow: hidden;
+    border-bottom: 0;
+}
+
+.header li:hover{
+    background-color: #125688;
+}
+
+
+
+.header li{
+    float:left;
+    color: #666;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+    height: auto;
+   /* border-right: 1px solid #bbb;
+    line-height: 40px;*/
+    padding-bottom: 35px;
+}
+
+
+
+.header li a{
+    display: block;
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+.header img{
+   float: right;
+    height: 90px; 
+    margin-right: 50px;
+}
+
+
+/*************************************/
+
+/*    DROPDOWN   */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #125688;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: #125688;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+   /* background-color: cadetblue;*/
+        color: #125688;
+    background-color: goldenrod;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.bannerHeader{
+    height: 3px;
+    background-color: goldenrod;
+    opacity: 0.8;
+}
+
+
+.banner{
+    height:2px;
+    width: 40%;
+    background-color: rgba(104, 26, 0, 0.5);
+    margin: auto;
+   margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+/* ARTICLE TRANSPORT*/
+
+.article{
+    text-align: center;
+}
+
+
+
+/*************  FOOTER *********/
+
+.footer{
+    
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+
+#containerFooter{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+    background-color: #013048;;
+    margin-top: 50px;
+}
+
+
+.logoFooter img{
+   
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .contact{
+    vertical-align: center;
+}
+
+
+
+.footer ul,.footer a, .footer h3 {
+    color: white;
+     text-decoration: none;
+    list-style: none;
+}
+
+
+
+.footer .contact h3{
+   margin: auto !important;
+    text-align: center;
+    color: goldenrod;
+}
+
+.footer-social, .contact, .logoFooter{
+   margin-top: auto;
+    margin-bottom: auto;
+}
+
+.footer-social .fa{
+ padding: 20px;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px 2px;
+    border-radius: 20px;
+}
+
+.footer-social .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-phone, .fa-envelope-o{
+    color: #cf8b29;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+/**********-****/
+
+
+@media screen and (max-width: 960px)
+{
+    
+    body, html{
+        min-width: 100%;
+    }
+    .header 
+    {
+        position: relative;
+    }
+    
+    .header img{
+        display: none;
+    }
+    
+    .containerFooter{
+        width: 100%;
+    }
+    
+    .footer{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+
+    }
+    
+    .footer-social{
+        margin-bottom: 30px;
+    }
+    
+    .logoFooter{
+        display: none;
+    }
+    
+    
+  
+    .presentation_video {
+     max-width: 100%;
+      }
+    
+    .footer .contact ul{
+        text-align: center;
+    }
+    
+    p{
+        max-width: 100%;
+        font-size: 15px;
+    }
+    
+    h1{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,59 @@
+.flap{
+    display: none;
+}
+
+.iconeTransport{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    background-color: blanchedalmond;
+    width: 100%; 
+}
+
+#flip{
+    color:red;
+    font-size: 20px;
+margin-bottom: 5px;
+    text-align: center;
+    background-color: blanchedalmond;
+    width: 100%;
+}
+
+
+
+.metro, .taxi, .bus{
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.transportHome h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+.containerMetro, .containerTaxi, .containerBus{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.transportHome{
+    margin-top: 150px;
+}
+
+.transportHome h1,.transportHome p{
+    text-align: center;
+}
+
+.transportHome p{
+    margin-bottom: 80px;
+    width: auto;
+}
+
+.map{
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
